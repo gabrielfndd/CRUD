@@ -27,10 +27,10 @@ public class frmLogin extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        tf_nome = new javax.swing.JTextField();
+        txt_nome = new javax.swing.JTextField();
         lb_senha = new javax.swing.JLabel();
-        tf_senha = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        txt_senha = new javax.swing.JTextField();
+        btn_entrar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -38,36 +38,36 @@ public class frmLogin extends javax.swing.JFrame {
         jLabel1.setText("Nome");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 75, -1, -1));
 
-        tf_nome.addActionListener(new java.awt.event.ActionListener() {
+        txt_nome.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tf_nomeActionPerformed(evt);
+                txt_nomeActionPerformed(evt);
             }
         });
-        getContentPane().add(tf_nome, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 97, 199, -1));
+        getContentPane().add(txt_nome, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 97, 199, -1));
 
         lb_senha.setText("Senha");
         getContentPane().add(lb_senha, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 137, -1, -1));
 
-        tf_senha.addActionListener(new java.awt.event.ActionListener() {
+        txt_senha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tf_senhaActionPerformed(evt);
+                txt_senhaActionPerformed(evt);
             }
         });
-        getContentPane().add(tf_senha, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 159, 199, -1));
+        getContentPane().add(txt_senha, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 159, 199, -1));
 
-        jButton1.setText("Entrar");
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 199, 81, 32));
+        btn_entrar.setText("Entrar");
+        getContentPane().add(btn_entrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 199, 81, 32));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void tf_nomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_nomeActionPerformed
+    private void txt_nomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_nomeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tf_nomeActionPerformed
+    }//GEN-LAST:event_txt_nomeActionPerformed
 
-    private void tf_senhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_senhaActionPerformed
+    private void txt_senhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_senhaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tf_senhaActionPerformed
+    }//GEN-LAST:event_txt_senhaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -105,10 +105,10 @@ public class frmLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btn_entrar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel lb_senha;
-    private javax.swing.JTextField tf_nome;
-    private javax.swing.JTextField tf_senha;
+    private javax.swing.JTextField txt_nome;
+    private javax.swing.JTextField txt_senha;
     // End of variables declaration//GEN-END:variables
 }
